@@ -1,0 +1,122 @@
+.tags {
+  margin-top:12px;
+  margin-bottom:24px;
+}
+
+activetag {
+  padding:0px;
+  background-color:rgba(0,255,255,.5) !important;
+}
+.marked.color1  {
+  // text-shadow: -1px 1px 3px rgba(0,255,255,.5);
+  // transition: text-shadow 2s;
+  animation-duration: 7s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+}
+.activetags {
+  color:red;
+}
+.descrip {
+  // font-family: 'Bebas Neue', cursive;
+    // margin:2px;
+    // box-shadow:0px 0px 4px #000;
+    // border-radius:0px;
+  
+    margin:4px;
+    font-weight:500;
+    font-size:1em;
+    transition: color 3s, text-shadow 1s, border 2s, background-color 2s;
+    color:rgba(0,0,0,.6);
+    border:1px dotted #FFF;
+    box-shadow:0 12px 24px rgba(33,33,33,0);
+  }
+ span {
+  
+  // box-shadow:0px 0px 2px rgba(0,255,255.5);
+  // background-color:rgba(0,255,255,.5);
+  // transition: background-color 1s;
+  cursor:pointer !important;
+  
+  
+  }
+  
+  @keyframes slidein {
+    from {
+      box-shadow:0px 0px 2px rgba(0,255,255.5);
+      background-color:rgba(0,255,255,1);
+    }
+  
+    75% {w:0px 0px 2px rgba(0,255,255.5);
+      background-color:rgba(0,255,255,1);
+    }
+  
+    to {w:0px 0px 2px rgba(0,255,255.5);
+      background-color:rgba(0,255,255,0);
+    }
+  }
+  h3 strong {
+    font-size:1.1em;
+  }
+  h6 {
+    margin-left:5px;
+    color:#aaa;
+  }
+
+.color1 {
+  background-color:rgba(0,0,255,.9) !important;
+}
+.color2 {
+  background-color:rgba(0,0,255,.9) !important;
+}
+.color3 {
+  background-color:rgba(255, 0, 162, 0.9) !important;
+}
+.color4 {
+  background-color:rgba(255, 247, 0, 0.9) !important;
+}
+.color5 {
+  background-color:rgba(13, 94, 0, 0.9) !important;
+}
+.color6 {
+  background-color:rgba(255, 0, 0, 0.9) !important;
+}.titlegrid {
+  display: grid;
+  grid-template-columns:70px 6fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 20px;
+  grid-auto-flow: row;
+  justify-content: space-around;
+  align-content: start;
+  justify-items: normal;
+  align-items: center;
+  grid-template-areas:
+    ". . .";
+    width:100%;
+}
+.company-logo {
+width:70px;
+float:right;
+
+}
+
+
+.where-when pre {
+  color: rgb(28, 28, 53);
+  margin:0px;
+  font-weight:500;  
+  font-size:12px;
+  margin-top:-10px;
+  
+  color:rgb(165, 165, 165);
+  text-align:Center;
+  font-family:Roboto;
+}
+div.when {
+  font-family:Roboto;
+  font-size:1em;
+  margin-top:0px;
+  font-weight:500;  
+  text-align:Center;
+  color:rgb(165, 165, 165);
+}

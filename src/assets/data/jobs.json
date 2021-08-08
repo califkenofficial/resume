@@ -1,0 +1,221 @@
+{
+  "jobs": [
+    {
+      "key": "j1",
+      "position": "Instructor",
+      "company": "University of Arizona",
+      "companylogo": "assets/images/uofa.png",
+      "location": "Chandler, AZ",
+      "description": "Instructor at the University of Arizona for the full-time Full Stack Web Development bootcamp, teaching JavaScript, Node.js, Express, Firebase, MySQL, jQuery, React.js, HTML5, CSS3, Bootstrap, Sequelize, Mongo, Git, and the Command Line.",
+      "year": "2018",
+      "tags": [
+        "JavaScript",
+        "Bootstrap",
+        "CSS3",
+        "Express",
+        "Firebase",
+        "Git",
+        "HTML5",
+        "jQuery",
+        "Mongo",
+        "MySQL",
+        "Node.js",
+        "React.js",
+        "Sequelize"
+      ]
+    },
+    {
+      "key": "azdr",
+      "position": "Drupal Developer",
+      "company": "State of Arizona",
+      "companylogo": "assets/images/stateofaz.png",
+      "location": "Phoenix, AZ",
+      "description": "Contributed to the development of the Department of Economic Security Intranet.  Incorporated an existing local development instance of Drupal to work with the State’s custom upstream Drupal distribution on the Pantheon platform.  Integrated a vendor-supplied Material Design library into a custom theme. Developed a prototype document library with ability to search through document content using Apache Solr.  Managed relationships between Drupal Entities to facilitate building more performant views by design.  Used benchmarking tools for Drupal and MySQL.  Monitored caching, performance metrics and logs on development, staging and production.",
+      "year": "2017",
+      "tags": [
+        "Drupal",
+        "Bootstrap",
+        "CSS3",
+        "JavaScript",
+        "MySQL",
+        "Material Design",
+        "Apache",
+        "Solr",
+        "Pantheon"
+      ]
+    },
+    {
+      "key": "asudr",
+      "position": "Drupal Developer",
+      "company": "Arizona State University",
+      "companylogo": "assets/images/asu.png",
+      "location": "Phoenix, AZ",
+      "description": "Worked with the College of Liberal Arts & Sciences to design content, taxonomy, panels and menu structures for sites upgrading from Drupal 6 to 7. Emphasis on accessibility, compliance with web standards, and branding consistency through the incorporation of existing ASU marketing assets and design standards, as inferred from existing properties and in-house style guides.",
+      "year": "2016",
+      "tags": [
+        "Drupal",
+        "taxonomy",
+        "panels",
+        "menu",
+        "upgrading"
+      ]
+    },
+    {
+      "key": "xfcdev",
+      "position": "Web Developer",
+      "company": "XFC, Inc.",
+      "companylogo": "assets/images/xfc.png",
+      "location": "Phoenix, AZ",
+      "description": "Built paid subscription video sites, incorporating object-oriented PHP, HTML templates and responsive CSS to replace a large base of intermixed HTML, CSS, PHP and MySQL rcode. Contributed new features, including user generated tags, and a timeline-based comments and ratings system.",
+      "year": "2014",
+      "tags": [
+        "PHP",
+        "MySQL",
+        "Tags",
+        "Subscription",
+        "Video"
+      ]
+    },
+    {
+      "key": "cybdev",
+      "position": "Drupal Developer",
+      "company": "CyberMark International",
+      "companylogo": "assets/images/cybermark.jpg",
+      "location": "Phoenix, AZ",
+      "description": "Designed software to assist in the management of search engine optimization strategies, tracking specific actions taken during optimization, and finally correlating variance in search result metrics back to those actions.  <small>For example, May 1st, Rachel linked to a featured article from the homepage.  On May 15th, featured article traffic is up 200%. </small> <br><br>Incorporated new designs and marketing techniques to facilitate conversions. Worked with platforms including Drupal, WordPress and Infusionsoft.",
+      "year": "2012",
+      "tags": [
+        "Drupal",
+        "WordPress",
+        "SEO",
+        "Analytics",
+        "Social Media"
+      ]
+    },
+    {
+      "key": "ucladc",
+      "position": "Drupal Consultant",
+      "company": "UCLA",
+      "companylogo": "assets/images/ucla.png",
+      "location": "Los Angeles, CA",
+      "description": "Provided IT and development support for several departments at the School of Public Health. Consulted on web development for the School of Public Health’s website.",
+      "year": "2011",
+      "tags": [
+        "Drupal"
+      ]
+    },
+    {
+      "key": "achint",
+      "position": "Drupal Developer",
+      "company": "Achieve Internet",
+      "companylogo": "assets/images/achieveinternet.png",
+      "location": "San Diego, CA",
+      "description": "Developed Drupal sites for high-profile media clients, including Best Buy, Lifetime Television for Women, Fast Company and the Inc500.  Wrote code for custom modules, templates and SQL queries.",
+      "year": "2007",
+      "tags": [
+        "Drupal"
+      ]
+    }
+  ],
+  "skills": [
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+    "Drupal",
+    "WordPress",
+    "Node.js",
+    "React.js",
+    "jQuery",
+    "MySQL",
+    "MS SQL",
+    "Firebase",
+    "Mongo",
+    "Sequelize",
+    "Access Databases",
+    "PHP",
+    "ASP",
+    "Apache",
+    "Express",
+    "Windows",
+    "Linux Server Administration",
+    "SEO",
+    "Social Media",
+    "Content",
+    "Analytics & Metrics",
+    "Git",
+    "SVN",
+    "CVS",
+    "Visual Studio",
+    "Zend",
+    "Eclipse",
+    "PhpStorm",
+    "Adobe Suite",
+    "Photoshop",
+    "Flash Media Server",
+    "After Effects",
+    "Final Cut Pro Logic",
+    "Live",
+    "FL Studio"
+  ],
+  "portfolio": [
+    {
+      "key": "p1",
+      "title": "Resume",
+      "headline": "Angular Resume",
+      "subtitle": "RXJS to link tag instances across experiences and portfolio, so that the reviewer can find all of what they are looking for faster and easier.",
+      "description": "Recruiters often want to highlight the areas of experience  most relevant to the opportunity.  Can you give me a version of your resume that highlights your _ skills?  \n\nIn reviewing a resume, the ability to mark specific skills as more relevant, and further to then mark them globally across the resume and portfolio, provides enough visual cue to at a glance see where those skills present themselves across a person's entire work history, skill set and project portfolio, and in what context.",
+      "projectimage": "assets/images/resume.png",
+      "year": "2021",
+      "projecturl": "https://www.kennethcaple.com/apps/angular-resume",
+      "imageurl": "https://images.unsplash.com/photo-1604741948035-aa4c9ef0fcec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=668&q=80",
+      "tags": [
+        "Angular",
+        "TypeScript",
+        "JavaScript",
+        "RXJS",
+        "Firebase",
+        "Services",
+        "Git",
+        "HTML5",
+        "CSS3"
+      ]
+    },
+    {
+      "key": "spleeter",
+      "title": "spleeter.online",
+      "subtitle": "Online service to access an instance of Deezer's Spleeter, which utilizes trained models to separate music files into vocal, instrumental and drum tracks.",
+      "description": "Developed a site that lets the visitor upload an audio file, and in return, they will be able to download the vocal stem from that audio file.  It does take a few minutes to run, and there are several steps along the way that it makes sense to keep the visitor aware of what's going on.  \n\nThe client facing Angular application interfaces with Google Firebase Storage and Realtime Database to handle the file and session state.  Behind closed ports, a server dedicated to this task of Spleeting Audio files listens to the Realtime Database, and when progress has reached the point at which the audio file is available for Node to download, so it does and sends a request to the Python server.\n\nPython executes the Spleeter command, and once the vocal audio stem has been generated, it calls back to Node.js.  Node sends it back up to the cloud, and Angular is notified when the audio stem is available to download.",
+      "prorjecturl": "https://spleeter.online/",
+      "year": "2018",
+      "projectimage": "assets/images/spleeter.png",
+      "imageurl": "https://images.unsplash.com/photo-1583665606514-e0f81cc5cded?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "tags": [
+        "Angular",
+        "TypeScript",
+        "JavaScrirpt",
+        "RXJS",
+        "Firebase",
+        "Firebase Admin SDK",
+        "Realtime Database",
+        "Storage",
+        "Hosting",
+        "Google Cloud Storage",
+        "Python",
+        "Anaconda",
+        "Spleeter"
+      ]
+    },
+    {
+      "key": "aws",
+      "title": "Angular WaveSurfer Service",
+      "subtitle": "Angular WaveSurfer Service is an NPM package that I publish and maintain.  It's purpose is to make it easy to display a navigable waveform in an Angular application.",
+      "description": "  It makes WaveSurfer.js's audio decoding, playback and waveform generation features available via an installable Angular Serivce Library.  The package also provides a 'wavesurfer' component, which at minimum requires one input: the audio file's URL.",
+      "challenge": "I want to display navigable waveforms in an Angular application with a prebuilt component.",
+      "year": "2018",
+      "projecturl": "https://www.npmjs.com/package/angular-wavesurfer-service",
+      "projectimage": "assets/images/angularwavesurferservice.png",
+      "imageurl": "https://images.unsplash.com/photo-1548020751-bd94af3f1b66?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80",
+      "tags": []
+    }
+  ]
+}

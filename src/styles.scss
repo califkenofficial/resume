@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Oswald&family=Roboto:wght@100;900&display=swap');
+
+mark {
+    padding:0px;
+    background-color:#FFF;
+    text-shadow:0px 1px 2px rgbai(0,0,0,.2);
+
+}
+
+.marked {
+    text-shadow:0px 0px 1px rgba(0,0,0,.1);
+    // font-weight:900;
+    // font-size:1.2em;
+    transition: font-size 3s, padding 4s;
+}
+// .color1 {
+//   background-color:rgba(255, 0, 162, 0.9) !important;
+//   transition: color 3s;
+//   text-shadow:0px 5px 15px rgba(255, 0, 162, 0.9) !important;
+
+// }
+// .textcolor1 {
+//   color:rgba(0, 102, 102, 1) !important;
+//   transition: color 3s;
+//   text-shadow:0px 5px 9px rgba(0, 102, 102, 1) !important;
+// }
+// .textcolor2 {
+//   color:rgba(255, 0, 162, 0.9) !important;
+//   transition: color 3s;
+//   text-shadow:0px 5px 15px rgba(255, 0, 162, 0.9) !important;
+// }
+// .color1 {
+//     background-color:rgba(255, 0, 162, 0.9) !important;
+// }
+// .textcolor3 {
+//     color:rgba(0, 119, 119, 0.9) !important;
+//     text-shadow:0px 5px 15px rgba(0, 119, 119, 0.9) !important;
+//     transition: color 3s;
+//   }
+//   .color2 {
+//       background-color:rgba(0, 254, 254, 0.9) !important;
+//   }
+//   .textcolor4 {
+//     color:rgba(0, 119, 10, 0.9) !important;
+//     transition: color 3s;
+//     text-shadow:0px 5px 15px rgba(0, 119, 10, 0.9) !important;
+//   }
+//   .color3 {
+//       background-color:rgba(0, 255, 21, 0.9) !important;
+//   }
+//   .textcolor5 {
+//     color:rgba(255, 0, 162, 0.9) !important;
+//     transition: color 3s;
+//     text-shadow:0px 5px 15px rgba(255, 0, 162, 0.9) !important;
+//   }
+//   .color4 {
+//       background-color:rgba(255, 0, 162, 0.9) !important;
+//   }
+//   .textcolor6 {
+//     color:rgba(142, 137, 0, 0.9) !important;
+//     transition: color 3s;
+//     text-shadow:0px 5px 15px rgba(142, 137, 0, 0.9) !important;
+//   }
+//   .color5 {
+//       background-color:rgba(255, 247, 0, 0.9) !important;
+//   }
+//   .textcolor7 {
+//     color:rgba(13, 94, 0, 0.9) !important;
+//     transition: color 3s;
+//     text-shadow:0px 5px 15px rgba(13, 94, 0, 0.9) !important;
+//   }
+//   .color6 {
+//       background-color:rgba(13, 94, 0, 0.9) !important;
+//   }
+//   .textcolor8 {
+//     color:rgba(255, 0, 0, 0.9) !important;
+//     transition: color 3s;
+//     text-shadow:0px 5px 15px rgba(255, 0, 0, 0.9) !important;
+//   }
+
+//   .color7 {
+//     background-color:rgba(255, 0, 0, 0.9) !important;
+// }
+$base-color: #036;
+
+@for $i from 0 through 36 {
+  $coloradjust:40;
+  $thiscolor: adjust-hue(rgba(0,100,100,1), $i*$coloradjust);
+  $thisiadj: $i + 1;
+    .color#{$i} {
+        background-color: $thiscolor;
+        color: #FFF !important;
+        text-shadow:0px 2px 14px rgba(0,0,0,.5)
+      }
+      .textcolor#{$thisiadj} {
+        color: $thiscolor;
+      }
+
+}

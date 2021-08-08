@@ -1,0 +1,26 @@
+
+<div class="card">
+  <div class="card-body">
+    <div class="projectbody">
+      <div>
+        <div class="title-image"><img [src]="project.imageurl" /></div>
+        <h3>
+          <strong>{{ project.title }}</strong>
+        </h3>
+        <h6>{{ project.subtitle }}</h6>
+
+        <div
+          class="descrip"  style="white-space:pre-wrap"
+          innerHTML="{{ project.description | highlight: activeTags }}"
+        ></div>
+
+        <div class="tags">
+          <app-tags [tags]="project.tags"></app-tags>
+        </div>
+      </div>
+      <div>
+        <img class="projectimage" [src]="project.projectimage" />
+      </div>
+    </div>
+  </div>
+</div>

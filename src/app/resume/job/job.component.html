@@ -1,0 +1,28 @@
+<div class="titlegrid">
+
+  <img class="company-logo" [src]="job.companylogo"/>
+
+  <div>  
+    <h3>
+      <strong>{{ job.position }}</strong><br>@ {{ job.company }}
+    </h3>
+  </div>
+
+  <div class="where-when">
+    <div class="when">{{ job.year }}</div>
+    <div>
+      <pre>{{ job.location }}</pre>
+    </div>
+  </div>
+</div>
+<div>
+  <!-- <p id="description">{{ job.description }}</p> -->
+  <div
+    class="descrip"
+    innerHTML="{{ job.description | highlight: activeTags }}"
+  ></div>
+
+  <div class="tags">
+    <app-tags [tags]="job.tags"></app-tags>
+  </div>
+</div>

@@ -1,0 +1,38 @@
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <div class="container">
+      <header class="mb-auto">
+          <div>
+              <nav class="nav nav-masthead justify-content-center float-md-end">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link" href="#">Features</a>
+                  <a class="nav-link" href="#">Contact</a>
+              </nav>
+          </div>
+      </header>
+
+      <main class="px-3">
+          <h1>Kenneth Caple</h1>
+          <p class="lead">
+              <span class="angular">Angular </span> 
+              <span class="javascript">JavaScript </span>
+              <span class="Node">Node </span>
+              <span class="SQL">SQL </span>
+              <span class="NoSQL"> NoSQL </span>
+              <span class="Firebase"> Firebase </span>
+              <span class="Drupal"> Drupal </span>
+              <span class="WordPress"> WordPress </span>
+              <span class="PHP"> PHP </span>
+              <span class="Python"> Python</span>
+          </p>
+       
+      </main>
+
+  </div>
+</div>
+<div id="resume" class="container">
+  <h2>Experience</h2>
+  <app-job *ngFor="let job of jobs | async" [job]="job"></app-job>
+
+  <h2>Portfolio</h2>
+  <app-project *ngFor="let project of portfolio | async" [project]="project"></app-project>
+</div>

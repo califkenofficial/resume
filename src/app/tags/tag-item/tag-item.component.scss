@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.tag {font-family: 'Bebas Neue', cursive;
+  // margin:2px;
+  // box-shadow:0px 0px 4px #000;
+  // border-radius:0px;
+
+  margin:0px;
+  font-weight:500;
+  font-size:.8em;
+  transition: color 3s, text-shadow 1s, border 2s, background-color 2s;
+  color:rgba(0,0,0,.6);
+  border:1px dotted #FFF;
+  box-shadow:0 12px 24px rgba(33,33,33,0);
+}
+.tag.active {
+  box-shadow:0 12px 4px rgba(33,33,33,.1) inset;
+color:#000;
+text-shadow:0px 1px 3px rgba(0, 62, 155,.1);
+transition: color 1s, text-shadow 3s, border 2s, background-color 2s;
+border:1px dotted #333;
+box-shadow:0px 0px 2px rgba(0,255,255.5);
+// background-color:rgba(0,255,255,.5);
+}
+.tag:hover {
+
+box-shadow:0px 0px 2px rgba(0,255,255.5);
+background-color:rgba(0,255,255,.5);
+transition: background-color 1s;
+cursor:pointer !important;
+
+
+}
+ 
+.marked {
+  color:red;
+}
+// .color1 {
+//   background-color:rgba(0,0,255,.9) !important;
+// }
+// .color2 {
+//   background-color:rgba(0,0,255,.9) !important;
+// }
+// .color3 {
+//   background-color:rgba(255, 0, 162, 0.9) !important;
+// }
+// .color4 {
+//   background-color:rgba(255, 247, 0, 0.9) !important;
+// }
+// .color5 {
+//   background-color:rgba(13, 94, 0, 0.9) !important;
+// }
+// .color6 {
+//   background-color:rgba(255, 0, 0, 0.9) !important;
+// }
